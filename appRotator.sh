@@ -22,7 +22,7 @@ while sleep 5; do
  	echo $openedApp
  	# open the application
  	# the “-a” flag to specify the application by name
-  	open -a ${appArray[number]}
+  	open -a ${appArray[number]}; ccf
   	# if the application is ... (chess or calendar)
   	# There must be a space between if and [
   	if [ $openedApp = "Chess" ] || [ $openedApp = "Calendar" ]; then

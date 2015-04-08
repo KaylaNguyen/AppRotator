@@ -1,4 +1,0 @@
-case uit in
-    
-touch Log.txt
-echo This is a message > Log.txt
